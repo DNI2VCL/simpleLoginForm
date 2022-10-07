@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-align: center;
+    background-image: url(backround.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submitButton {
+    margin-top: 25px;
+    background-color: rebeccapurple;
+    border: 8px solid black;
+    border-radius: 15px;
+    height: 70px;
+    width:320px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 25px;
+    transition: 1s;
+
+}
+
+.submitButton:hover {
+    background-color: #9400D3;
+}
+
+.main {
+margin-top: 250px
+}
+
+h1, p {
+    font-family: Poppins;
+    color: white;
+}
+
+.textStyle {
+    width: 300px;
+    border-radius: 15px;
+    height: 60px;
+    outline: 3px solid black;
+    transition: 1s;
+    font-size: 25px
+
+}
+
+.textStyle:hover {
+
+}
+
+.textStyle:focus {
+
+}
+
+
+
+.userBox {
+    margin-bottom: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+input::placeholder {
+    color: #3D348B;
+    font-family: Poppins;
+    font-weight: bold;
+
+}
+p{
+  font-size: 30px;
+  font-family: Poppins;
+}
