@@ -5,6 +5,8 @@ body {
     background-image: url(backround.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Poppins;
+    color: #a83b3b;
 }
 
 .submitButton {
@@ -35,7 +37,7 @@ h1, p {
 }
 
 .textStyle {
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
     height: 60px;
     outline: 3px solid black;
